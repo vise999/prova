@@ -6,7 +6,7 @@ st.title("Quiz da Excel - Verifica Conoscenze")
 
 # Caricamento automatico del file Excel dal repository
 file_path = "questionario conoscenze infusion.xlsx"
-
+# matteo il boss della strada
 try:
     df = pd.read_excel(file_path)
     st.success("File Excel caricato automaticamente dal repository!")
